@@ -5,7 +5,7 @@ var userName = prompt('Quale è il tuo nome?');
 
 console.log('Nome User: ', userName);
 
-document.getElementById('name').innerHTML =  userName;
+document.getElementById('name').innerHTML = userName;
 
 //Parte 2
 var lastName = prompt('Quale è il tuo cognome?');
