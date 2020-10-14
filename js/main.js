@@ -19,4 +19,4 @@ var color = prompt('Quale è il tuo colore preferito?');
 
 console.log('Colore preferito: ', color);
 
-document.getElementById('color').innerHTML = 'Classe 19 ' + color;
+document.getElementById('color').innerHTML = color + ' 19';
