@@ -1,22 +1,13 @@
 // Parte js
 
-//Parte 1
-var userName = prompt('Quale è il tuo nome?');
+// Ottenere dati richiesti
+var nome = prompt('Inserisci il tuo nome');
+var cognome = prompt('Inserisci il tuo cognome');
+var colore = prompt('Inserisci il tuo colore preferito?');
 
-console.log('Nome User: ', userName);
+// Costruzione password
+var password = nome + cognome + colore + '19';
+console.log(password);
 
-document.getElementById('name').innerHTML = userName;
-
-//Parte 2
-var lastName = prompt('Quale è il tuo cognome?');
-
-console.log('Cognome User: ', lastName);
-
-document.getElementById('lastName').innerHTML = lastName;
-
-// Parte 3
-var color = prompt('Quale è il tuo colore preferito?');
-
-console.log('Colore preferito: ', color);
-
-document.getElementById('color').innerHTML = color + ' 19';
+// Output
+document.getElementById('password').innerHTML = 'La tua password è: ' + password;
